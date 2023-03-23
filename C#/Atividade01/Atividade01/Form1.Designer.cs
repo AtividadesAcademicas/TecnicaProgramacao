@@ -30,21 +30,21 @@ namespace Atividade01
         private void InitializeComponent()
         {
             this.gpbDespertador = new System.Windows.Forms.GroupBox();
-            this.gpbRelogio = new System.Windows.Forms.GroupBox();
-            this.lblHoraDespertador = new System.Windows.Forms.Label();
-            this.lblMinutoDespertador = new System.Windows.Forms.Label();
-            this.lblSegundoDespertador = new System.Windows.Forms.Label();
             this.lblDescricao = new System.Windows.Forms.Label();
-            this.lblHoraRelogio = new System.Windows.Forms.Label();
-            this.lblMinutoRelogio = new System.Windows.Forms.Label();
-            this.lblSegundoRelogio = new System.Windows.Forms.Label();
+            this.lblSegundoDespertador = new System.Windows.Forms.Label();
+            this.lblMinutoDespertador = new System.Windows.Forms.Label();
+            this.txtDescricao = new System.Windows.Forms.TextBox();
+            this.lblHoraDespertador = new System.Windows.Forms.Label();
+            this.txtSegundoDespertador = new System.Windows.Forms.TextBox();
             this.txtHoraDespertador = new System.Windows.Forms.TextBox();
             this.txtMinutoDespertador = new System.Windows.Forms.TextBox();
-            this.txtSegundoDespertador = new System.Windows.Forms.TextBox();
-            this.txtDescricao = new System.Windows.Forms.TextBox();
-            this.txtHoraRelogio = new System.Windows.Forms.TextBox();
-            this.txtMinutoRelogio = new System.Windows.Forms.TextBox();
+            this.gpbRelogio = new System.Windows.Forms.GroupBox();
             this.txtSegundoRelogio = new System.Windows.Forms.TextBox();
+            this.lblSegundoRelogio = new System.Windows.Forms.Label();
+            this.txtMinutoRelogio = new System.Windows.Forms.TextBox();
+            this.lblMinutoRelogio = new System.Windows.Forms.Label();
+            this.txtHoraRelogio = new System.Windows.Forms.TextBox();
+            this.lblHoraRelogio = new System.Windows.Forms.Label();
             this.btnCriarDespertador = new System.Windows.Forms.Button();
             this.btnCriarRelogio = new System.Windows.Forms.Button();
             this.btnAnalisar = new System.Windows.Forms.Button();
@@ -63,55 +63,12 @@ namespace Atividade01
             this.gpbDespertador.Controls.Add(this.txtHoraDespertador);
             this.gpbDespertador.Controls.Add(this.txtMinutoDespertador);
             this.gpbDespertador.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpbDespertador.Location = new System.Drawing.Point(130, 12);
+            this.gpbDespertador.Location = new System.Drawing.Point(12, 12);
             this.gpbDespertador.Name = "gpbDespertador";
-            this.gpbDespertador.Size = new System.Drawing.Size(252, 216);
+            this.gpbDespertador.Size = new System.Drawing.Size(370, 216);
             this.gpbDespertador.TabIndex = 0;
             this.gpbDespertador.TabStop = false;
             this.gpbDespertador.Text = "Despertador";
-            // 
-            // gpbRelogio
-            // 
-            this.gpbRelogio.Controls.Add(this.txtSegundoRelogio);
-            this.gpbRelogio.Controls.Add(this.lblSegundoRelogio);
-            this.gpbRelogio.Controls.Add(this.txtMinutoRelogio);
-            this.gpbRelogio.Controls.Add(this.lblMinutoRelogio);
-            this.gpbRelogio.Controls.Add(this.txtHoraRelogio);
-            this.gpbRelogio.Controls.Add(this.lblHoraRelogio);
-            this.gpbRelogio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpbRelogio.Location = new System.Drawing.Point(388, 12);
-            this.gpbRelogio.Name = "gpbRelogio";
-            this.gpbRelogio.Size = new System.Drawing.Size(252, 216);
-            this.gpbRelogio.TabIndex = 1;
-            this.gpbRelogio.TabStop = false;
-            this.gpbRelogio.Text = "Relógio";
-            // 
-            // lblHoraDespertador
-            // 
-            this.lblHoraDespertador.AutoSize = true;
-            this.lblHoraDespertador.Location = new System.Drawing.Point(66, 43);
-            this.lblHoraDespertador.Name = "lblHoraDespertador";
-            this.lblHoraDespertador.Size = new System.Drawing.Size(44, 20);
-            this.lblHoraDespertador.TabIndex = 0;
-            this.lblHoraDespertador.Text = "Hora";
-            // 
-            // lblMinutoDespertador
-            // 
-            this.lblMinutoDespertador.AutoSize = true;
-            this.lblMinutoDespertador.Location = new System.Drawing.Point(53, 75);
-            this.lblMinutoDespertador.Name = "lblMinutoDespertador";
-            this.lblMinutoDespertador.Size = new System.Drawing.Size(57, 20);
-            this.lblMinutoDespertador.TabIndex = 2;
-            this.lblMinutoDespertador.Text = "Minuto";
-            // 
-            // lblSegundoDespertador
-            // 
-            this.lblSegundoDespertador.AutoSize = true;
-            this.lblSegundoDespertador.Location = new System.Drawing.Point(36, 107);
-            this.lblSegundoDespertador.Name = "lblSegundoDespertador";
-            this.lblSegundoDespertador.Size = new System.Drawing.Size(74, 20);
-            this.lblSegundoDespertador.TabIndex = 3;
-            this.lblSegundoDespertador.Text = "Segundo";
             // 
             // lblDescricao
             // 
@@ -122,32 +79,46 @@ namespace Atividade01
             this.lblDescricao.TabIndex = 4;
             this.lblDescricao.Text = "Descrição";
             // 
-            // lblHoraRelogio
+            // lblSegundoDespertador
             // 
-            this.lblHoraRelogio.AutoSize = true;
-            this.lblHoraRelogio.Location = new System.Drawing.Point(55, 43);
-            this.lblHoraRelogio.Name = "lblHoraRelogio";
-            this.lblHoraRelogio.Size = new System.Drawing.Size(44, 20);
-            this.lblHoraRelogio.TabIndex = 5;
-            this.lblHoraRelogio.Text = "Hora";
+            this.lblSegundoDespertador.AutoSize = true;
+            this.lblSegundoDespertador.Location = new System.Drawing.Point(36, 107);
+            this.lblSegundoDespertador.Name = "lblSegundoDespertador";
+            this.lblSegundoDespertador.Size = new System.Drawing.Size(74, 20);
+            this.lblSegundoDespertador.TabIndex = 3;
+            this.lblSegundoDespertador.Text = "Segundo";
             // 
-            // lblMinutoRelogio
+            // lblMinutoDespertador
             // 
-            this.lblMinutoRelogio.AutoSize = true;
-            this.lblMinutoRelogio.Location = new System.Drawing.Point(42, 75);
-            this.lblMinutoRelogio.Name = "lblMinutoRelogio";
-            this.lblMinutoRelogio.Size = new System.Drawing.Size(57, 20);
-            this.lblMinutoRelogio.TabIndex = 6;
-            this.lblMinutoRelogio.Text = "Minuto";
+            this.lblMinutoDespertador.AutoSize = true;
+            this.lblMinutoDespertador.Location = new System.Drawing.Point(53, 75);
+            this.lblMinutoDespertador.Name = "lblMinutoDespertador";
+            this.lblMinutoDespertador.Size = new System.Drawing.Size(57, 20);
+            this.lblMinutoDespertador.TabIndex = 2;
+            this.lblMinutoDespertador.Text = "Minuto";
             // 
-            // lblSegundoRelogio
+            // txtDescricao
             // 
-            this.lblSegundoRelogio.AutoSize = true;
-            this.lblSegundoRelogio.Location = new System.Drawing.Point(25, 107);
-            this.lblSegundoRelogio.Name = "lblSegundoRelogio";
-            this.lblSegundoRelogio.Size = new System.Drawing.Size(74, 20);
-            this.lblSegundoRelogio.TabIndex = 7;
-            this.lblSegundoRelogio.Text = "Segundo";
+            this.txtDescricao.Location = new System.Drawing.Point(116, 136);
+            this.txtDescricao.Name = "txtDescricao";
+            this.txtDescricao.Size = new System.Drawing.Size(248, 26);
+            this.txtDescricao.TabIndex = 5;
+            // 
+            // lblHoraDespertador
+            // 
+            this.lblHoraDespertador.AutoSize = true;
+            this.lblHoraDespertador.Location = new System.Drawing.Point(66, 43);
+            this.lblHoraDespertador.Name = "lblHoraDespertador";
+            this.lblHoraDespertador.Size = new System.Drawing.Size(44, 20);
+            this.lblHoraDespertador.TabIndex = 0;
+            this.lblHoraDespertador.Text = "Hora";
+            // 
+            // txtSegundoDespertador
+            // 
+            this.txtSegundoDespertador.Location = new System.Drawing.Point(116, 104);
+            this.txtSegundoDespertador.Name = "txtSegundoDespertador";
+            this.txtSegundoDespertador.Size = new System.Drawing.Size(100, 26);
+            this.txtSegundoDespertador.TabIndex = 4;
             // 
             // txtHoraDespertador
             // 
@@ -163,26 +134,37 @@ namespace Atividade01
             this.txtMinutoDespertador.Size = new System.Drawing.Size(100, 26);
             this.txtMinutoDespertador.TabIndex = 3;
             // 
-            // txtSegundoDespertador
+            // gpbRelogio
             // 
-            this.txtSegundoDespertador.Location = new System.Drawing.Point(116, 104);
-            this.txtSegundoDespertador.Name = "txtSegundoDespertador";
-            this.txtSegundoDespertador.Size = new System.Drawing.Size(100, 26);
-            this.txtSegundoDespertador.TabIndex = 4;
+            this.gpbRelogio.Controls.Add(this.txtSegundoRelogio);
+            this.gpbRelogio.Controls.Add(this.lblSegundoRelogio);
+            this.gpbRelogio.Controls.Add(this.txtMinutoRelogio);
+            this.gpbRelogio.Controls.Add(this.lblMinutoRelogio);
+            this.gpbRelogio.Controls.Add(this.txtHoraRelogio);
+            this.gpbRelogio.Controls.Add(this.lblHoraRelogio);
+            this.gpbRelogio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gpbRelogio.Location = new System.Drawing.Point(388, 12);
+            this.gpbRelogio.Name = "gpbRelogio";
+            this.gpbRelogio.Size = new System.Drawing.Size(400, 216);
+            this.gpbRelogio.TabIndex = 1;
+            this.gpbRelogio.TabStop = false;
+            this.gpbRelogio.Text = "Relógio";
             // 
-            // txtDescricao
+            // txtSegundoRelogio
             // 
-            this.txtDescricao.Location = new System.Drawing.Point(116, 136);
-            this.txtDescricao.Name = "txtDescricao";
-            this.txtDescricao.Size = new System.Drawing.Size(100, 26);
-            this.txtDescricao.TabIndex = 5;
+            this.txtSegundoRelogio.Location = new System.Drawing.Point(105, 104);
+            this.txtSegundoRelogio.Name = "txtSegundoRelogio";
+            this.txtSegundoRelogio.Size = new System.Drawing.Size(100, 26);
+            this.txtSegundoRelogio.TabIndex = 8;
             // 
-            // txtHoraRelogio
+            // lblSegundoRelogio
             // 
-            this.txtHoraRelogio.Location = new System.Drawing.Point(105, 40);
-            this.txtHoraRelogio.Name = "txtHoraRelogio";
-            this.txtHoraRelogio.Size = new System.Drawing.Size(100, 26);
-            this.txtHoraRelogio.TabIndex = 6;
+            this.lblSegundoRelogio.AutoSize = true;
+            this.lblSegundoRelogio.Location = new System.Drawing.Point(25, 107);
+            this.lblSegundoRelogio.Name = "lblSegundoRelogio";
+            this.lblSegundoRelogio.Size = new System.Drawing.Size(74, 20);
+            this.lblSegundoRelogio.TabIndex = 7;
+            this.lblSegundoRelogio.Text = "Segundo";
             // 
             // txtMinutoRelogio
             // 
@@ -191,12 +173,30 @@ namespace Atividade01
             this.txtMinutoRelogio.Size = new System.Drawing.Size(100, 26);
             this.txtMinutoRelogio.TabIndex = 7;
             // 
-            // txtSegundoRelogio
+            // lblMinutoRelogio
             // 
-            this.txtSegundoRelogio.Location = new System.Drawing.Point(105, 104);
-            this.txtSegundoRelogio.Name = "txtSegundoRelogio";
-            this.txtSegundoRelogio.Size = new System.Drawing.Size(100, 26);
-            this.txtSegundoRelogio.TabIndex = 8;
+            this.lblMinutoRelogio.AutoSize = true;
+            this.lblMinutoRelogio.Location = new System.Drawing.Point(42, 75);
+            this.lblMinutoRelogio.Name = "lblMinutoRelogio";
+            this.lblMinutoRelogio.Size = new System.Drawing.Size(57, 20);
+            this.lblMinutoRelogio.TabIndex = 6;
+            this.lblMinutoRelogio.Text = "Minuto";
+            // 
+            // txtHoraRelogio
+            // 
+            this.txtHoraRelogio.Location = new System.Drawing.Point(105, 40);
+            this.txtHoraRelogio.Name = "txtHoraRelogio";
+            this.txtHoraRelogio.Size = new System.Drawing.Size(100, 26);
+            this.txtHoraRelogio.TabIndex = 6;
+            // 
+            // lblHoraRelogio
+            // 
+            this.lblHoraRelogio.AutoSize = true;
+            this.lblHoraRelogio.Location = new System.Drawing.Point(55, 43);
+            this.lblHoraRelogio.Name = "lblHoraRelogio";
+            this.lblHoraRelogio.Size = new System.Drawing.Size(44, 20);
+            this.lblHoraRelogio.TabIndex = 5;
+            this.lblHoraRelogio.Text = "Hora";
             // 
             // btnCriarDespertador
             // 
@@ -207,6 +207,7 @@ namespace Atividade01
             this.btnCriarDespertador.TabIndex = 2;
             this.btnCriarDespertador.Text = "Criar";
             this.btnCriarDespertador.UseVisualStyleBackColor = true;
+            this.btnCriarDespertador.Click += new System.EventHandler(this.btnCriarDespertador_Click);
             // 
             // btnCriarRelogio
             // 
@@ -217,6 +218,7 @@ namespace Atividade01
             this.btnCriarRelogio.TabIndex = 3;
             this.btnCriarRelogio.Text = "Criar";
             this.btnCriarRelogio.UseVisualStyleBackColor = true;
+            this.btnCriarRelogio.Click += new System.EventHandler(this.btnCriarRelogio_Click);
             // 
             // btnAnalisar
             // 
@@ -227,6 +229,7 @@ namespace Atividade01
             this.btnAnalisar.TabIndex = 4;
             this.btnAnalisar.Text = "Analisar";
             this.btnAnalisar.UseVisualStyleBackColor = true;
+            this.btnAnalisar.Click += new System.EventHandler(this.btnAnalisar_Click);
             // 
             // Form1
             // 

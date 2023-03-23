@@ -1,0 +1,10 @@
+F:\Técnica de Programação\C#\Atividade01\Atividade01\bin\Debug\Atividade01.exe.config
+F:\Técnica de Programação\C#\Atividade01\Atividade01\bin\Debug\Atividade01.exe
+F:\Técnica de Programação\C#\Atividade01\Atividade01\bin\Debug\Atividade01.pdb
+F:\Técnica de Programação\C#\Atividade01\Atividade01\obj\Debug\Atividade01.csproj.AssemblyReference.cache
+F:\Técnica de Programação\C#\Atividade01\Atividade01\obj\Debug\Atividade01.Form1.resources
+F:\Técnica de Programação\C#\Atividade01\Atividade01\obj\Debug\Atividade01.Properties.Resources.resources
+F:\Técnica de Programação\C#\Atividade01\Atividade01\obj\Debug\Atividade01.csproj.GenerateResource.cache
+F:\Técnica de Programação\C#\Atividade01\Atividade01\obj\Debug\Atividade01.csproj.CoreCompileInputs.cache
+F:\Técnica de Programação\C#\Atividade01\Atividade01\obj\Debug\Atividade01.exe
+F:\Técnica de Programação\C#\Atividade01\Atividade01\obj\Debug\Atividade01.pdb
