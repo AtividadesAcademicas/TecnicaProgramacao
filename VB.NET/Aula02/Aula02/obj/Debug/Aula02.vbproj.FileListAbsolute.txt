@@ -1,0 +1,12 @@
+D:\Aula02\Aula02\bin\Debug\Aula02.exe.config
+D:\Aula02\Aula02\bin\Debug\Aula02.exe
+D:\Aula02\Aula02\bin\Debug\Aula02.pdb
+D:\Aula02\Aula02\bin\Debug\Aula02.xml
+D:\Aula02\Aula02\obj\Debug\Aula02.vbproj.AssemblyReference.cache
+D:\Aula02\Aula02\obj\Debug\Aula02.Resources.resources
+D:\Aula02\Aula02\obj\Debug\Aula02.vbproj.GenerateResource.cache
+D:\Aula02\Aula02\obj\Debug\Aula02.vbproj.CoreCompileInputs.cache
+D:\Aula02\Aula02\obj\Debug\Aula02.exe
+D:\Aula02\Aula02\obj\Debug\Aula02.xml
+D:\Aula02\Aula02\obj\Debug\Aula02.pdb
+D:\Aula02\Aula02\obj\Debug\Aula02.Form.resources

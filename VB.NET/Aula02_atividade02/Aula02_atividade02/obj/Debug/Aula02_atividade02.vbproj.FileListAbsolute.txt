@@ -1,0 +1,12 @@
+D:\Aula02_atividade02\Aula02_atividade02\bin\Debug\Aula02_atividade02.exe.config
+D:\Aula02_atividade02\Aula02_atividade02\bin\Debug\Aula02_atividade02.exe
+D:\Aula02_atividade02\Aula02_atividade02\bin\Debug\Aula02_atividade02.pdb
+D:\Aula02_atividade02\Aula02_atividade02\bin\Debug\Aula02_atividade02.xml
+D:\Aula02_atividade02\Aula02_atividade02\obj\Debug\Aula02_atividade02.vbproj.AssemblyReference.cache
+D:\Aula02_atividade02\Aula02_atividade02\obj\Debug\Aula02_atividade02.Form1.resources
+D:\Aula02_atividade02\Aula02_atividade02\obj\Debug\Aula02_atividade02.Resources.resources
+D:\Aula02_atividade02\Aula02_atividade02\obj\Debug\Aula02_atividade02.vbproj.GenerateResource.cache
+D:\Aula02_atividade02\Aula02_atividade02\obj\Debug\Aula02_atividade02.vbproj.CoreCompileInputs.cache
+D:\Aula02_atividade02\Aula02_atividade02\obj\Debug\Aula02_atividade02.exe
+D:\Aula02_atividade02\Aula02_atividade02\obj\Debug\Aula02_atividade02.xml
+D:\Aula02_atividade02\Aula02_atividade02\obj\Debug\Aula02_atividade02.pdb

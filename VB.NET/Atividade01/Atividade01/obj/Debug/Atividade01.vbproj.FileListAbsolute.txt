@@ -1,0 +1,12 @@
+E:\pedro\Área de trabalho\Atividade01\Atividade01\bin\Debug\Atividade01.exe.config
+E:\pedro\Área de trabalho\Atividade01\Atividade01\bin\Debug\Atividade01.exe
+E:\pedro\Área de trabalho\Atividade01\Atividade01\bin\Debug\Atividade01.pdb
+E:\pedro\Área de trabalho\Atividade01\Atividade01\bin\Debug\Atividade01.xml
+E:\pedro\Área de trabalho\Atividade01\Atividade01\obj\Debug\Atividade01.vbproj.AssemblyReference.cache
+E:\pedro\Área de trabalho\Atividade01\Atividade01\obj\Debug\Atividade01.Form1.resources
+E:\pedro\Área de trabalho\Atividade01\Atividade01\obj\Debug\Atividade01.Resources.resources
+E:\pedro\Área de trabalho\Atividade01\Atividade01\obj\Debug\Atividade01.vbproj.GenerateResource.cache
+E:\pedro\Área de trabalho\Atividade01\Atividade01\obj\Debug\Atividade01.vbproj.CoreCompileInputs.cache
+E:\pedro\Área de trabalho\Atividade01\Atividade01\obj\Debug\Atividade01.exe
+E:\pedro\Área de trabalho\Atividade01\Atividade01\obj\Debug\Atividade01.xml
+E:\pedro\Área de trabalho\Atividade01\Atividade01\obj\Debug\Atividade01.pdb
